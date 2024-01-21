@@ -1,0 +1,13 @@
+version: 2
+updates:
+  - package-ecosystem: gradle
+    directory: "/"
+    schedule:
+      interval: weekly
+    assignees:
+      - WPCleaner
+    commit-message:
+      prefix: Dependabot
+      include: scope
+    reviewers:
+      - WPCleaner
